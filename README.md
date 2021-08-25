@@ -32,7 +32,7 @@ Many other displays are also possible if they have the required connectors, have
 
 | Display      | Teensy                                                       |
 | -------------- | ------------------------------------------------------------ |
-| VCC            | **3.3V** (from Teensy, better 3.3V from separate LDO) ยน      |
+| VCC            | **3.3V** (from Teensy, better 3.3V from separate LDO) ¹     |
 | GND            | **GND** (on top, between Vin and 3.3V)                       |
 | CS             | **9**                                                        |
 | RESET          | **6**                                                        |
@@ -42,7 +42,7 @@ Many other displays are also possible if they have the required connectors, have
 | LED            | any available pin will do or connect to +3.3V through a small resistor 50 to 100 Ohm |
 | SDO (**MISO**) | **12**                                                       |
 
-ยน Recommended: close the jumper **J1** on the display.
+¹ Recommended: close the jumper **J1** on the display.
 
 ### Used libraries
 
